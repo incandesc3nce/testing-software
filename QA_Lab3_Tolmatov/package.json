@@ -1,0 +1,29 @@
+{
+  "name": "jewelry_shop",
+  "version": "1.0.0",
+  "description": "QA Lab 3 project for writing documentation",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/main.ts",
+    "compile": "tsc",
+    "doc-js": "npx jsdoc dist/classes -c ./conf/jsdoc.json -d docs/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incandesc3nce/testing-software.git"
+  },
+  "author": "incandesc3nce <incandesc3ncee@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/incandesc3nce/testing-software/issues"
+  },
+  "homepage": "https://github.com/incandesc3nce/testing-software#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "jsdoc": "^4.0.4",
+    "jsdoc-mermaid": "^1.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
